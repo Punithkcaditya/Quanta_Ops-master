@@ -1,0 +1,229 @@
+*, body{
+    font-family: 'Domine', serif;
+    color: #D7D7E4;
+  }
+  
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-no-space{
+    display: flex;
+}
+
+.pr-o5{
+    padding-right: 0.5em;
+}
+
+.mt-9{
+    margin-top: 9em !important;
+}
+
+
+.mb-3{
+    margin-bottom: 3em !important;
+}
+
+.mt-6{
+    margin-top: 6em !important;
+}
+
+.d-flex-center{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.d-flex-end{
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+.fs-96{
+    font-size: 96px !important;
+}
+
+
+/* .gradient-text {
+    background: linear-gradient(90deg, #7B61FF, #4A3A99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  
+
+  .gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #7B61FF, #4A3A99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .lh-120{
+    line-height: 120px;
+  }
+
+  .gradient-text-hero {
+    background: linear-gradient(182deg, #05050A, #3d3d42) !important; 
+  }
+
+  .ai-network, .swiper_section, .quanta_section, .startyourjourney{
+    background: #05050A;
+  }
+
+  .swiper_section, .startyourjourney{
+    padding: 4em 2em;
+  }
+
+  .mb-2em{
+    margin-bottom: 2em;
+  }
+
+
+  .p-05{
+    padding: 0.5em;
+  }
+
+  .h-40{
+    height: 40px;
+  }
+
+  .pb-0{
+    padding-bottom: 0px !important;
+  }
+
+  .mt-5em{
+    margin-top: 5em;
+  }
+
+  .mt-4em{
+    margin-top: 4em;
+  }
+
+
+/* media query */
+
+  @media (max-width: 768px) { /* Tablet */
+    .truncated-text {
+      width: 180px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 540px) { /* Mobile */
+        .fs-96 {
+        font-size: 50px !important;
+        }
+        .lh-120 {
+        line-height: 59px !important;;
+        }
+
+        .hero{
+          padding-top: 6em !important;;
+        }
+
+        .hero-content button{
+          display: none !important;;
+        }
+
+        .search-container {
+              margin-top: 0em !important;
+        }
+
+        .h-40 {
+          height: 31px !important;;
+      }
+      .search-box{
+        margin-bottom: 0px !important;;
+      }
+
+      .result-box[data-v-27029d83] {
+        margin-top: 12px !important;;
+        height: 200px !important;;
+    }
+    .search-container{
+      max-width: 100% !important;
+    }
+    .search-box input{
+      font-size: 9px !important;
+    }
+
+    .features h2{
+      font-size: 24px !important;
+    }
+
+    .symbol-div{
+      display: none !important;
+    }
+
+    .feature-card h3 {
+      font-size: 16px !important;
+    }
+
+    .feature-card p {
+      font-size: 12px !important;
+    }
+    .features {
+      padding-top: 10em !important;
+    }
+
+    .tech-stack h2{
+      font-size: 24px !important;
+      font-weight: 500 !important;
+    }
+
+    .tech-stack p{
+      font-size: 16px;
+    }
+
+    .mt-6 {
+      margin-top: 2em !important;
+  }
+  
+  .stack-logos{
+    margin-top: 4em !important;
+  }
+
+  .quanta_h2 {
+    font-size: 29px !important;
+    padding-top: 3em !important;
+  }
+
+  .quanta_h3 {
+    font-size: 16px !important;
+  }
+
+  .break_into_quanta, .optimize{
+    width: 100% !important;
+    text-align: start !important;
+  }
+
+  .quanta-card{
+    min-height: 180px !important;
+  }
+
+  .quanta-card h3{
+    font-size: 20px !important;
+  }
+  .quanta-card p{
+    font-size: 12px !important;
+  }
+
+  .deploy_intelligence{
+    margin-top: 1em;
+  }
+
+  .startyourjourney .container {
+    padding: 4em !important;
+  }
+
+  .pale_color[data-v-62646f68] {
+    font-size: 24px !important;
+  }
+
+  .startyourjourney p {
+    font-size: 12px !important;
+  }
+}
