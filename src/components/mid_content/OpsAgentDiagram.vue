@@ -215,6 +215,8 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       transform: rotate(30deg);
       transition: all 0.3s ease;
+      animation: hexPulse 3s infinite; /* Add this line */
+
     }
     
     .hexagon:before,
