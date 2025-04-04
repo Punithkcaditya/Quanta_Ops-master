@@ -80,11 +80,8 @@
       ];
 
         // Check if the screen width is less than 768px (Mobile View)
-        if (window.innerWidth < 768) {
-            this.allLogos = assets_mob;
-        }else {
-            this.allLogos = assets;
-        }
+        this.allLogos = window.innerWidth < 768 ? assets_mob : assets;
+
   
       this.filterByCategory("All");
         // Listen for window resize events to dynamically adjust positions
@@ -93,12 +90,17 @@
     methods: {
       filterByCategory(category) {
         this.selectedCategory = category;
+        if (!this.allLogos || !Array.isArray(this.allLogos)) {
+          console.error("allLogos is undefined or not an array");
+          return;
+        }
         this.logos = category === "All"
           ? this.allLogos
           : this.allLogos.filter((logo) => logo.category === category);
       },
       adjustLogoPositions() {
-        this.allLogos = this.assets_mob;
+        this.allLogos = window.innerWidth < 768 ? this.assets_mob : this.allLogos;
+
       }
     },
   };
