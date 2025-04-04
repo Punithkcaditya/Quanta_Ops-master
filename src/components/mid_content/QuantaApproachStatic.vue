@@ -25,7 +25,7 @@
       <div class="row mt-3">
        <div class="col-md-5 m-h">
         <div class="quanta-card d-flex-end"> 
-        <div class="break_into_quanta" style="width: 50%;text-align: end"  data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="2500">
+        <div class="break_into_quanta" style="width: 60%;text-align: end"  data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="2500">
         <h3 class="mt-3">3.Reconstruct</h3>
         <p>Gain a superior integrated system as your optimized elements coalesce into a cohesive whole that preserves all enhancements.</p>
        </div>

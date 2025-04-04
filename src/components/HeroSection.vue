@@ -82,6 +82,7 @@
     background: #0b0b0d;
     color: #D7D7E4;
     padding: 50px 0px;
+    padding-top: 4em;
   }
   
   .hero h1 {

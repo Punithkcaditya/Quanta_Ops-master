@@ -11,4 +11,7 @@ const app = createApp(App);
 // Initialize AOS after mounting the app
 app.mount('#app');
 
-AOS.init();
+AOS.init({
+    offset: 0, // Removes any additional space AOS adds
+    duration: 1500,
+  });

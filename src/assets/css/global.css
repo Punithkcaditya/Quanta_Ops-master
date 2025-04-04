@@ -1,6 +1,9 @@
- body{
-    font-family: 'Domine', serif;
-    color: #D7D7E4;
+html,body{
+    font-family: 'Domine', serif !important;
+    color: #D7D7E4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
   }
 
   .bg-dark-header{
