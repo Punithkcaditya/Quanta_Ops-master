@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-dark-header">
     <HeaderView company="Quanta Ops" msg="Brainstorm"/>
     <HeroSection />
     <Footer />

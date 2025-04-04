@@ -30,5 +30,10 @@
   .agent.center img{
 width: 51%;
   }
+
+
+  .ai-network h1, .ai-network h2{
+    color: #D7D7E4;
+  }
   </style>
   

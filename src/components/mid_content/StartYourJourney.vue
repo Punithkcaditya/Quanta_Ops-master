@@ -45,7 +45,9 @@ export default {
     border: 1px solid #484877;
   }
 
-  
+  .startyourjourney p{
+    color: #D7D7E4;
+  }
   @keyframes pulse-ring {
     0% {
       transform: translate(0%, -50%) scale(0.8);

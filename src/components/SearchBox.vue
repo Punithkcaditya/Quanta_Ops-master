@@ -1,5 +1,5 @@
 <template>
-    <div class="search-container mt-9 mb-3" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="2000">
+    <div class="search-container mt-9 mb-3" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="1000">
       <div class="search-box">
         <span class="indicator"></span>
         <input type="text" placeholder="Initiate Quanta Ops...">

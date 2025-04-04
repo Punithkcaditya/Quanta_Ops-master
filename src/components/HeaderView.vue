@@ -4,7 +4,7 @@
     <button>{{ msg }}</button>
   </header> -->
 
-  <header class="navbar sticky-on aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+  <header class="navbar sticky-on" data-aos="fade-down" data-aos-duration="1000">
     <img src="@/assets/logo.png" alt="Logo" class="logo" />
     <div class="btn-wrapper">
       <img src="@/assets/line.png" alt="Line" class="line-img" />
@@ -75,6 +75,16 @@ export default {
 }
 .brainstorm-btn:hover {
   background: linear-gradient(270deg, #7B61FF, #4A3A99);
+}
+
+.navbar {
+  opacity: 0; /* Ensure it's completely invisible */
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.navbar.aos-animate {
+  opacity: 1;
+  background-color: #000; /* Change this to your desired color */
 }
 
 </style>
