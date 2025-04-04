@@ -140,7 +140,7 @@ img {
     width: 60px;
   }
   .swiper_section, .startyourjourney {
-    padding: 2em 1em;
+    padding: 1em 0em;
  }
 }
 </style>

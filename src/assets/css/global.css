@@ -4,6 +4,7 @@ html,body{
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden !important;
+    background: #000000; 
   }
 
   .bg-dark-header{
@@ -96,7 +97,7 @@ html,body{
   }
 
   .swiper_section, .startyourjourney{
-    padding: 4em 2em;
+    padding: 6em 2em;
   }
 
   .mb-2em{
@@ -248,5 +249,16 @@ html,body{
 
   .startyourjourney p {
     font-size: 12px !important;
+  }
+
+  .startyourjourney .container {
+     border-radius: unset !important;
+  }
+  .startyourjourney  {
+    padding: unset !important;
+  }
+
+  .startyourjourney .start_button  {
+    margin-bottom: 2em;
   }
 }

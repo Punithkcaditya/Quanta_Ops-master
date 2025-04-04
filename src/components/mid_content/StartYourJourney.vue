@@ -60,12 +60,40 @@ export default {
   }
 
   /* pulse effect */
-  .pulse-button {
+  /* .pulse-button {
     cursor: pointer;
     overflow: hidden;
     margin-top: 5em;
     animation: pulse-ring 1.5s infinite;
   }
+*/
+
+.pulse-button {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5); /* Converted hex to rgba */
+  animation: pulse 1.5s infinite;
+}
+
+.pulse-button:hover {
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
 
   
 

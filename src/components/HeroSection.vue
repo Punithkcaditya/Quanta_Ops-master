@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding-top: 6em;">
     <section class="hero gradient-text-hero">
       <h1 class="fs-96 gradient-text" data-aos="slide-up" data-aos-easing="ease-in" data-aos-duration="1500"><span>Quanta </span><span ref="typing"></span></h1>
       <h2 class="fs-96 lh-120 mb-2em" data-aos="slide-up" data-aos-easing="ease-in" data-aos-duration="1500">Revolutionizing Enterprise <br> Intelligence</h2>
@@ -82,7 +82,6 @@
     background: #0b0b0d;
     color: #D7D7E4;
     padding: 50px 0px;
-    padding-top: 4em;
   }
   
   .hero h1 {

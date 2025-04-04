@@ -29,7 +29,7 @@ export default {
     };
   },
   mounted() {
-    window.scrollTo(0, 0); 
+    window.scrollTo(0, 0); // Ensure page loads at the top instantly
     window.addEventListener('scroll', this.handleScroll);
   },
   beforeUnmount() {
@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.isScrolled = window.scrollY > 50; // Add class when scrolled past 50px
+      this.isScrolled = window.scrollY > 100; // Add class when scrolled past 50px
     },
   },
   watch: {
@@ -83,6 +83,8 @@ export default {
   background-color: transparent; /* Transparent at the start */
   transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
   padding: 10px 20px;
+  height: 60px;
+  line-height: 60px; 
 }
 .navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.1); /* Dark background when scrolled */
