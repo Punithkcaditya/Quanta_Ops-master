@@ -111,13 +111,16 @@
   ];
   
   const generateHexGrid = () => {
-    hexagons.value = Array.from({ length: hexCount }, () => ({
-      left: Math.random() * 600,
-      top: Math.random() * 300,
-      animationDuration: 5 + Math.random() * 5,
-      animationDelay: Math.random() * 5
-    }));
-  };
+  const maxLeft = window.innerWidth <= 768 ? 400 : 700; // Set max left to 400px for mobile (<=768px)
+
+  hexagons.value = Array.from({ length: hexCount }, () => ({
+    left: Math.random() * maxLeft, // Ensure left doesn't exceed maxLeft
+    top: Math.random() * 300,
+    animationDuration: 5 + Math.random() * 5,
+    animationDelay: Math.random() * 5
+  }));
+};
+
   
   const onAgentHover = (id, index) => {
     const line = document.getElementById(`line${index + 1}`);
@@ -592,4 +595,109 @@
       }
     }
 
+    @media (max-width: 768px) {
+      .agent-card{
+        width: 70px;
+        height: 95px;
+      }
+      .agent-label{
+        font-size: 8px;
+      }
+      .ecosystem-container{
+        overflow: visible;
+      }
+      .hexagon-grid{
+        left: -3em;
+      }
+
+    /* Agent positions */
+    .inventory-agent {
+      top: 80px;
+      left: 180px;
+      transform: translateX(-50%);
+    }
+    
+    .support-agent {
+      top: 160px;
+      left: 380px;
+    }
+    
+    .co-pilot {
+      top: 320px;
+      left: 430px;
+    }
+    
+    .finance-agent {
+      top: 470px;
+      left: 330px;
+    }
+    
+    .sales-agent {
+      top: 490px;
+      left: 180px;
+      transform: translateX(-50%);
+    }
+    
+    .marketing-agent {
+      top: 470px;
+      left: 30px;
+    }
+    
+    .booking-agent {
+      top: 320px;
+      left: -70px;
+    }
+    
+    .fulfillment-agent {
+      top: 160px;
+      left: 0px;
+    }
+    
+    /* Ops section positions */
+    .inventory-ops {
+      top: 160px;
+      left: 180px;
+      transform: translateX(-50%);
+    }
+    
+    .support-ops {
+      top: 200px;
+      left: 280px;
+    }
+    
+    .alignment-ops {
+      top: 300px;
+      left: 330px;
+    }
+    
+    .finance-ops {
+      top: 400px;
+      left: 280px;
+    }
+    
+    .sales-ops {
+      top: 440px;
+      left: 180px;
+      transform: translateX(-50%);
+    }
+    
+    .marketing-ops {
+      top: 400px;
+      left: 80px;
+    }
+    
+    .booking-ops {
+      top: 300px;
+      left: 30px;
+    }
+    
+    .fulfillment-ops {
+      top: 200px;
+      left: 80px;
+    }
+    .core{
+    top: 259px;
+    left: 170px;
+    }
+    }
 </style>
