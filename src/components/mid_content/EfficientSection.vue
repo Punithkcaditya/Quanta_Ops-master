@@ -59,7 +59,8 @@
         <div class="feature-card p-4 pb-0">
           <h3>Innovation</h3>
           <p>Drive innovation with cutting-edge AI solutions.</p>
-          <div class="d-flex-center gap-3 mt-6 data-interlinked">
+          <div class="d-flex-center gap-3  data-interlinkeda">
+            <div ref="lottieContainer" style="width: 500px; height: 328px;"></div>
 
           </div>
         </div>
@@ -78,8 +79,20 @@
 
 
 <script>
+import lottie from "lottie-web";
+import animationData from "@/assets/lottie.json"; // Path to your Lottie file
 export default {
   name: "EfficientSection",
+
+  mounted() {
+    lottie.loadAnimation({
+      container: this.$refs.lottieContainer,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+    });
+  }
 };
 </script>
 <style scoped>
