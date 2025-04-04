@@ -18,7 +18,7 @@
     </section>
     <EfficientSection />
     <StaticAiagentSection />
-    <TechStack />
+    <TechStackRandom />
     <CloudServiceScrollerSwiper />
     <QuantaApproachStatic />
     <StartYourJourney />
@@ -30,7 +30,8 @@
   import EfficientSection from "./mid_content/EfficientSection.vue";
 //   import AiagentSection from "./mid_content/AiagentSection.vue";
   import StaticAiagentSection from "./mid_content/StaticAiagentSection.vue";
-  import TechStack from "./mid_content/TechStack.vue";
+  // import TechStack from "./mid_content/TechStack.vue";
+  import TechStackRandom from "./mid_content/TechStackRandom.vue";
   import CloudServiceScrollerSwiper from "./mid_content/CloudServiceScrollerSwiper.vue";
   // import CloudServiceScroller from "./mid_content/CloudServiceScroller.vue";
   import QuantaApproachStatic from "./mid_content/QuantaApproachStatic.vue";
@@ -47,7 +48,7 @@
     SearchBox,
     EfficientSection,
     StaticAiagentSection,
-    TechStack,
+    TechStackRandom,
     CloudServiceScrollerSwiper,
     QuantaApproachStatic,
     StartYourJourney,
