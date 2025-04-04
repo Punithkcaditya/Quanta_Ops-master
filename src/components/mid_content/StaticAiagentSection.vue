@@ -3,9 +3,9 @@
       <h2 class="title" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1000">Transforming Enterprises</h2>
       <h1 class="subtitle" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1000">AI Agent For Operations</h1>
   
-      <div class="network-container mt-5">
+      <div class="network-container mt-5 d-flex-center">
         <!-- Central Management Agent -->
-        <AiagentOperations />
+        <OpsAgentSection />
       </div>
   
       <!-- <p class="footer-text">AI agents for operations by Quanta Ops</p> -->
@@ -13,11 +13,13 @@
   </template>
   
   <script>
-  import AiagentOperations from "./AiagentOperations.vue";
+  // import AiagentOperations from "./AiagentOperations.vue";
+  import OpsAgentSection from "./OpsAgentDiagram.vue"
+
   export default {
   name: "StaticAiagentSection",
   components:{
-    AiagentOperations
+    OpsAgentSection
   }
   };
   </script>

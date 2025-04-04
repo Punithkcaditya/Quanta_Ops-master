@@ -5,6 +5,7 @@ html,body{
     padding: 0 !important;
     overflow-x: hidden !important;
     background: #000000; 
+    box-sizing: border-box;
   }
 
   .bg-dark-header{
