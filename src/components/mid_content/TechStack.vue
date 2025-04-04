@@ -1,8 +1,8 @@
 <template>
     <section class="tech-stack">
         <div class="container">
-            <h2 data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1000">Works Seamlessly With Your Tech Stack</h2>
-            <p class="subtitle" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1200">The most efficient Polyglot</p>
+            <h2 data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1200">Works Seamlessly With Your Tech Stack</h2>
+            <p class="subtitle" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="1100">The most efficient Polyglot</p>
             
             <div class="stack-content mt-4em">
                 <div class="stack-categories">

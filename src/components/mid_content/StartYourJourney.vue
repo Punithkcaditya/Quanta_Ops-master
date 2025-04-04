@@ -48,12 +48,12 @@ export default {
   
   @keyframes pulse-ring {
     0% {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 0.6;
+      transform: translate(0%, -50%) scale(0.8);
+      opacity: 0.8;
     }
     100% {
-      transform: translate(-50%, -50%) scale(1.5);
-      opacity: 0;
+      transform: translate(0%, -50%) scale(1);
+      opacity: 1;
     }
   }
 
@@ -61,6 +61,7 @@ export default {
   .pulse-button {
     cursor: pointer;
     overflow: hidden;
+    margin-top: 5em;
     animation: pulse-ring 1.5s infinite;
   }
 

@@ -4,7 +4,7 @@
     <button>{{ msg }}</button>
   </header> -->
 
-  <header class="navbar">
+  <header class="navbar sticky-on aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
     <img src="@/assets/logo.png" alt="Logo" class="logo" />
     <div class="btn-wrapper">
       <img src="@/assets/line.png" alt="Line" class="line-img" />
