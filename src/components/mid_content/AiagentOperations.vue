@@ -230,4 +230,10 @@
   .connection-line {
     z-index: -1;
   }
+
+  @media (max-width: 768px) { /* Tablet */
+    .ai-network{
+    padding: 2em;
+    }
+  }
   </style>

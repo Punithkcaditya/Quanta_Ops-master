@@ -5,7 +5,7 @@
         <p class="subtitle">The most efficient Polyglot</p>
   
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="stack-categories">
               <button @click="filterByCategory('All')">All</button>
               <button @click="filterByCategory('Relational Database')">Relational Database</button>
@@ -16,7 +16,7 @@
               <button @click="filterByCategory('Time-Series Database')">Time-Series Database</button>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-8">
             <div class="stack-logos-1">
               <transition-group name="fade" tag="div">
                 <img
@@ -61,9 +61,34 @@
         { alt: "SQL Server", src: new URL("@/assets/sql_server_white.png", import.meta.url).href, category: "Relational Database", top: 100, left: 600 },
         { alt: "Graph Database", src: new URL("@/assets/Neo_logo.png", import.meta.url).href, category: "Graph Database", top: 5, left: 300 },
       ];
+
+      const assets_mob = [
+        { alt: "Weaviate", src: new URL("@/assets/weaviate_white_text_converted.png", import.meta.url).href, category: "Vector Database", top: 0, left: 16 },
+        { alt: "Prometheus", src: new URL("@/assets/prometheus.png", import.meta.url).href, category: "Time-Series Database", top: 47, left: 30 },
+        { alt: "Oracle", src: new URL("@/assets/oracle.png", import.meta.url).href, category: "Relational Database", top: 90, left: 18 },
+        { alt: "MongoDB", src: new URL("@/assets/mongo.png", import.meta.url).href, category: "Document Database", top: 90, left: 300 },
+        { alt: "Redis", src: new URL("@/assets/redis.png", import.meta.url).href, category: "Key-Value Database", top: 150, left: 50 },
+        { alt: "MySQL", src: new URL("@/assets/mysql.png", import.meta.url).href, category: "Relational Database", top: 119, left: 139 },
+        { alt: "Timescale", src: new URL("@/assets/timescale_white.png", import.meta.url).href, category: "Time-Series Database", top: 202, left: 29 },
+        { alt: "InfluxDB", src: new URL("@/assets/influxdb.png", import.meta.url).href, category: "Time-Series Database", top: 60, left: 146 },
+        { alt: "Cassandra", src: new URL("@/assets/cassandratry.png", import.meta.url).href, category: "Document Database", top: 208, left: 150 },
+        { alt: "Milvus", src: new URL("@/assets/milvus.png", import.meta.url).href, category: "Vector Database", top: 71, left: 140 },
+        { alt: "Couchbase", src: new URL("@/assets/couchbase.png", import.meta.url).href, category: "Document Database", top: 254, left: 34 },
+        { alt: "DynamoDB", src: new URL("@/assets/d1_white_text.png", import.meta.url).href, category: "Key-Value Database", top: 300, left: 42 },
+        { alt: "SQL Server", src: new URL("@/assets/sql_server_white.png", import.meta.url).href, category: "Relational Database", top: 300, left: 142 },
+        { alt: "Graph Database", src: new URL("@/assets/Neo_logo.png", import.meta.url).href, category: "Graph Database", top: 11, left: 153 },
+      ];
+
+        // Check if the screen width is less than 768px (Mobile View)
+        if (window.innerWidth < 768) {
+            this.allLogos = assets_mob;
+        }else {
+            this.allLogos = assets;
+        }
   
-      this.allLogos = assets;
       this.filterByCategory("All");
+        // Listen for window resize events to dynamically adjust positions
+        window.addEventListener("resize", this.adjustLogoPositions);
     },
     methods: {
       filterByCategory(category) {
@@ -72,6 +97,9 @@
           ? this.allLogos
           : this.allLogos.filter((logo) => logo.category === category);
       },
+      adjustLogoPositions() {
+        this.allLogos = this.assets_mob;
+      }
     },
   };
   </script>
@@ -131,5 +159,29 @@
     opacity: 0;
     transform: scale(0.8);
   }
+
+  @media (max-width: 540px) { /* Mobile */
+    .tech-stack {
+    padding: 3rem 0rem;
+    }
+
+    .stack-categories button {
+    background: rgb(13, 13, 13);
+    border: 2.5px solid #9191b633;
+    padding: 6px 7px;
+    font-size: 9px;
+    width: 116px;
+    border-radius: 9px;
+    }
+
+
+    .subtitle{
+        margin-bottom: 3rem;
+    }
+
+    .stack-logos-1 img {
+      max-width: 80px;
+    }
+}
   </style>
   
