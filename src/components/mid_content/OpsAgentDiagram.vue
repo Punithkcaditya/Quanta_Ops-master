@@ -507,51 +507,51 @@
     }
     
     .fulfillment-agent {
-      top: 160px;
-      left: 200px;
+      top: 10em;
+      left: 12em;
     }
     
     /* Ops section positions */
     .inventory-ops {
-      top: 160px;
-      left: 400px;
+      top: 10em;
+      left: 24em;
       transform: translateX(-50%);
     }
     
     .support-ops {
-      top: 200px;
-      left: 500px;
+      top: 12em;
+      left: 31em;
     }
     
     .alignment-ops {
-      top: 300px;
-      left: 550px;
+      top: 18em;
+      left: 34em;
     }
     
     .finance-ops {
-      top: 400px;
-      left: 500px;
+      top: 25em;
+      left: 31em;
     }
     
     .sales-ops {
-      top: 440px;
-      left: 400px;
+      top: 27em;
+      left: 25em;
       transform: translateX(-50%);
     }
     
     .marketing-ops {
-      top: 400px;
-      left: 300px;
+      top: 25em;
+      left: 18em;
     }
     
     .booking-ops {
-      top: 300px;
-      left: 250px;
+      top: 18em;
+      left: 15em;
     }
     
     .fulfillment-ops {
-      top: 200px;
-      left: 300px;
+      top: 33em;
+      left: 18em;
     }
     
     /* Animations */
@@ -609,97 +609,97 @@
         overflow: visible;
       }
       .hexagon-grid{
-        left: -3em;
+        left: -6em;
       }
 
     /* Agent positions */
     .inventory-agent {
-      top: 80px;
-      left: 180px;
+      top: 5em;
+      left: 11em;
       transform: translateX(-50%);
     }
     
     .support-agent {
-      top: 160px;
-      left: 380px;
+      top: 10em;
+      left: 23em;
     }
     
     .co-pilot {
-      top: 320px;
-      left: 430px;
+      top: 20em;
+      left: 23em;
     }
     
     .finance-agent {
-      top: 470px;
-      left: 330px;
+      top: 29em;
+      left: 20em;
     }
     
     .sales-agent {
-      top: 490px;
-      left: 180px;
+      top: 30em;
+      left: 11em;
       transform: translateX(-50%);
     }
     
     .marketing-agent {
-      top: 470px;
+      top: 29em;
       left: 30px;
     }
     
     .booking-agent {
-      top: 320px;
-      left: -70px;
+      top: 20em;
+      left: -6em;
     }
     
     .fulfillment-agent {
-      top: 160px;
+      top: 10em;
       left: 0px;
     }
     
     /* Ops section positions */
     .inventory-ops {
-      top: 160px;
-      left: 180px;
+      top: 10em;
+      left: 11.2em;
       transform: translateX(-50%);
     }
     
     .support-ops {
-      top: 200px;
-      left: 280px;
+      top: 12.5em;
+      left: 17em;
     }
     
     .alignment-ops {
-      top: 300px;
-      left: 330px;
+      top: 18em;
+      left: 20em;
     }
     
     .finance-ops {
-      top: 400px;
-      left: 280px;
+      top: 25em;
+      left: 17em;
     }
     
     .sales-ops {
-      top: 440px;
-      left: 180px;
+      top: 27em;
+      left: 11em;
       transform: translateX(-50%);
     }
     
     .marketing-ops {
-      top: 400px;
-      left: 80px;
+      top: 25em;
+      left: 5em;
     }
     
     .booking-ops {
-      top: 300px;
-      left: 30px;
+      top: 18em;
+      left: 1.8em;
     }
     
     .fulfillment-ops {
-      top: 200px;
-      left: 80px;
+      top: 12.5em;
+      left: 5em;
     }
     .core{
-    top: 259px;
-    left: 170px;
+    top: 16em;
+    left: 8em;
     }
     }
 </style>
