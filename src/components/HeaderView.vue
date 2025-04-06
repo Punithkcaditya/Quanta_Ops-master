@@ -76,7 +76,10 @@ export default {
 } */
 
 .navbar {
-  position: fixed;
+  padding: 10px 20px;
+}
+.navbar.scrolled {
+  position: fixed; /* only becomes fixed when scrolled */
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -85,8 +88,6 @@ export default {
   padding: 10px 20px;
   height: 60px;
   line-height: 60px; 
-}
-.navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.1); /* Dark background when scrolled */
   backdrop-filter: blur(10px); /* Optional blur effect */
 }
