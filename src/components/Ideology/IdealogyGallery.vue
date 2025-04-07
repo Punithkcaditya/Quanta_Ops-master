@@ -300,6 +300,7 @@ export default {
 }
 
 @media (max-width: 768px) {
+  
   .philosophy-section {
     padding: 40px 20px;
   }
