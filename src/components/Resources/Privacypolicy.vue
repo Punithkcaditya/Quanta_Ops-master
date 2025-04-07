@@ -3,7 +3,7 @@
       <h1>{{ company }}</h1>
       <button>{{ msg }}</button>
     </header> -->
-    <div>
+    <div class="bg-dark-header">
     <HeaderView company="Quanta Ops" msg="Brainstorm"/>
     <main class="content">
       <h1 class="title">Privacy Policy for Quanta Ops</h1>
@@ -215,6 +215,11 @@
     font-size: 17px;
     line-height: 28px;
   }
+  @media (max-width: 1024px) {
+    .title {
+        font-size: 41px !important; /* Reduce font size */
+  }
+  }
   /* Mobile view adjustments */
   @media (max-width: 768px) {
     .navbar {
@@ -250,8 +255,8 @@
     }
   
     .title {
-      font-size: 20px; /* Reduce font size */
-      line-height: 28px;
+      font-size: 20px !important; /* Reduce font size */
+      line-height: 28px !important;
       margin: 0px;
       text-align: center;
     }
@@ -277,6 +282,7 @@
       font-size: 15px; /* Slightly smaller font for readability */
       line-height: 24px;
     }
-  }
+}
+ 
   
   </style>
