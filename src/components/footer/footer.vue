@@ -33,8 +33,8 @@
                     <h3 class="section-title">Resources</h3>
                     <ul>
                       <li><a href="#">Help Center</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="privacy_policy">Privacy Policy</a></li>
+                      <li><a href="terms_of_service">Terms of Service</a></li>
                     </ul>
                   </div>
                 </div>

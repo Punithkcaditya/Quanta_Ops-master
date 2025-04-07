@@ -5,11 +5,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Idealogy from '../components/Gallery/Idealogy.vue'
 import Videojs from '../components/Gallery/Videojs.vue'
 import Home from '../Home.vue'
+import Privacypolicy from '../components/Resources/Privacypolicy.vue'
 
 const routes = [
     { path: '/', component: Home },
   { path: '/idealogy', component: Idealogy },
   { path: '/Videojs', component: Videojs },
+  { path: '/privacy_policy', component: Privacypolicy },
 ]
 
 const router = createRouter({
