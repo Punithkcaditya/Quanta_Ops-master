@@ -77,6 +77,7 @@ export default {
 
 .navbar {
   padding: 10px 20px;
+  background:#0000;
 }
 .navbar.scrolled {
   position: fixed; /* only becomes fixed when scrolled */
