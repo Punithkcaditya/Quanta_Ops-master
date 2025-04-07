@@ -8,10 +8,12 @@ import Home from '../Home.vue'
 import Privacypolicy from '../components/Resources/Privacypolicy.vue'
 import TermsOfService from '../components/Resources/TermsOfService.vue'
 import Careers from '../components/Company/Careers.vue'
+import IdealogyGallery from '../components/Ideology/IdealogyGallery.vue'
 
 const routes = [
     { path: '/', component: Home },
-  { path: '/idealogy', component: Idealogy },
+  { path: '/idealogytry', component: Idealogy },
+  { path: '/idealogygallery', component: IdealogyGallery },
   { path: '/Videojs', component: Videojs },
   { path: '/privacy_policy', component: Privacypolicy },
   { path: '/careers', component: Careers },
