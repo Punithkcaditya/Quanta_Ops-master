@@ -21,7 +21,7 @@
               <div class="feature-card pb-0">
                 <h3>Efficiency</h3>
                 <p>Optimize processes with 10X more efficiency.</p>
-                <div class="feature-image symbol-div"  loading="lazy" data-aos="fade-up" data-aos-delay="800">
+                <div class="feature-image symbol-div"  loading="lazy" data-aos="fade-up" data-aos-delay="300">
                   <div class="mockup-screen"></div>
                   <div class="badge process-optimization">
                     <span>
@@ -43,7 +43,7 @@
               <div class="feature-card pb-0">
                 <h3>Security</h3>
                 <p>Ensure your data is 10X more secure.</p>
-                <div class="feature-image symbol-div"  loading="lazy" data-aos="fade-up" data-aos-delay="800">
+                <div class="feature-image symbol-div"  loading="lazy" data-aos="fade-up" data-aos-delay="300">
                   <div class="mockup-screen"></div>
                   <div class="badge_2 process-optimization">
                     <span>
