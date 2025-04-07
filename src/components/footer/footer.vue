@@ -95,7 +95,7 @@
   }
   .footer-sections {
     display: flex;
-    gap: 170px;
+    gap: 15em;
     justify-content: center;
     flex-grow: 1;
   }

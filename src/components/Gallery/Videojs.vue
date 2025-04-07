@@ -7,6 +7,7 @@
       preload="auto"
       width="800"
       height="450"
+      :poster="poster"
     ></video>
   </div>
 </template>
@@ -23,6 +24,10 @@ videojs.registerPlugin('httpSourceSelector', httpSourceSelector);
 
 export default {
   name: 'VideoPlayer',
+  props: {
+    videoUrl: String,
+    poster: String // Accept poster image
+  },
   mounted() {
     const player = videojs(this.$refs.videoPlayer, {
       controls: true,
@@ -30,6 +35,7 @@ export default {
       preload: 'auto',
       responsive: true,
       techOrder: ['html5'],
+      poster: this.poster,
       controlBar: {
         children: [
           'playToggle',
@@ -55,7 +61,7 @@ export default {
       },
       sources: [
         {
-          src: 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8',
+          src: this.videoUrl,
           type: 'application/x-mpegURL'
         }
       ]
