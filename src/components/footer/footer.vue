@@ -197,6 +197,7 @@
       display: flex;
       justify-content: flex-start;
       margin-top: 10px;
+      margin-left: 0.8em;
     }
     .footer-bottom {
       margin-top: 2em;
