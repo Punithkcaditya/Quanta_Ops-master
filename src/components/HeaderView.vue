@@ -5,7 +5,7 @@
   </header> -->
 
   <header  :class="['navbar', { scrolled: isScrolled }]" data-aos="fade-down" data-aos-duration="1000">
-    <img src="@/assets/logo.png" alt="Logo" class="logo" />
+    <a href="/"><img src="@/assets/logo.png" alt="Logo" class="logo" /></a>
     <div class="btn-wrapper">
       <img src="@/assets/line.png" alt="Line" class="line-img" />
       <button class="brainstorm-btn">

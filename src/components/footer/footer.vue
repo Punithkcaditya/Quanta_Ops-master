@@ -3,7 +3,7 @@
         <div class='container'>
             <div class="footer-container">
                 <div class="footer-left">
-                  <img src="@/assets/logo.png" alt="Company Logo" class="logo" />
+                  <a href="/"> <img src="@/assets/logo.png" alt="Company Logo" class="logo" /></a>
                   <div class="social-icons desktop-view">
                     <img src="@/assets/facebook.png" alt="Facebook" />
                     <img src="@/assets/instagram.png" alt="Instagram" />
