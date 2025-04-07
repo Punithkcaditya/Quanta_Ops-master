@@ -126,6 +126,9 @@ export default {
   background: linear-gradient(270deg, #7B61FF, #4A3A99);
 }
 
+.line-img{
+  margin-right: 14px; 
+}
 /* .navbar {
   opacity: 0; /* Ensure it's completely invisible 
   transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;

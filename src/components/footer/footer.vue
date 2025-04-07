@@ -15,7 +15,7 @@
                     <h3 class="section-title">Company</h3>
                     <ul>
                       <li><a href="#">About</a></li>
-                      <li><a href="#">Careers</a></li>
+                      <li><a href="careers">Careers</a></li>
                       <li><a href="#">Blog</a></li>
                       <li><a href="#">Contact</a></li>
                     </ul>
@@ -199,7 +199,10 @@
       margin-top: 10px;
     }
     .footer-bottom {
-      margin-top: 10px;
+      margin-top: 2em;
+    }
+    .footer-bottom p {
+      margin-bottom: 0.5em;
     }
   }
   </style>
